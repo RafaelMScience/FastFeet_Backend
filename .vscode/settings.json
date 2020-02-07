@@ -1,0 +1,39 @@
+{
+  "window.zoomLevel": 0.4,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+
+  //aplica linha verticais para lembrar de quebrar a linha em codigo muito grandes
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": false,
+
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 4,
+
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  //aplica um sinal visual a esquerda da linha selecionada
+  "editor.parameterHints.enabled": false,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false
+}
